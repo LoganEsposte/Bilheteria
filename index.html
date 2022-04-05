@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Bilhetria</title>
 </head>
 
@@ -13,9 +13,10 @@
     <header>
         <div class="HeadContainer">
             <div class="Title">
-                <h1> BILHETERIA BEG PARK</h1>
+                <h1> BEG PARK</h1>
             </div>
             <label for="Basicdata" class="Etiquetas"> DADOS BÁSICOS </label>
+
             <div class="BasicData">
                 <form action="" class="LeftRight">
                     <div class="left">
@@ -26,10 +27,13 @@
                     <div class="right">
                         <input type="number" id="Caixa"><br>
                         <input type="number" id="ValorPromocao"><br>
-                        <input type="number"><br>
+                        <input type="number" id="ValorGeral"><br>
                     </div>
-                   
                 </form>
+                <div>
+                    <input type="button" value="Editar" onclick="Edith()" class="btn">
+                    <input type="button" value="Salvar" onclick="Save()" class="btn">
+                </div>
             </div>
         </div>
     </header>
@@ -61,7 +65,7 @@
                         <div class="right">
                             <input type="number" id="EntradaGeral"><br>
                             <input type="number" id="SaidaGeral"><br>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -111,4 +115,5 @@
 
     </footer>
 </body>
+<script type="text/javascript" src="javascript.js"></script>
 </html>

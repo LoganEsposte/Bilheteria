@@ -1,5 +1,5 @@
 
-##Bilheteria
+## Bilheteria
 
 ----
 
@@ -9,17 +9,17 @@ com a finalidade de resolver um problema de uma forma bem simples, usando HTML C
 
 ----
 
-*versão 1.0 - Colocar no ar e já resolver a questão
+* versão 1.0 - Colocar no ar e já resolver a questão
 
 ----
 
 ### Próximas feature
 
 
-*Inserir Dinheiro do Caixa (Calcular Sobras ou Faltas)
-*Backend
-*banco de Dados
-*Sistema de login (Caixa e Gerência)
-*Exibição de Relatórios (Semanais e Mensais)
-*Envio Automatizado de relatórios por e-mail (Gerência)
-*Aparência (inserção de imagens  e icones)
+* Inserir Dinheiro do Caixa (Calcular Sobras ou Faltas)
+* Backend
+* banco de Dados
+* Sistema de login (Caixa e Gerência)
+* Exibição de Relatórios (Semanais e Mensais)
+* Envio Automatizado de relatórios por e-mail (Gerência)
+* Aparência (inserção de imagens  e icones)
