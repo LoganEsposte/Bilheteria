@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Bilhetria</title>
+</head>
+
+<body>
+    <header>
+        <div class="HeadContainer">
+            <div class="Title">
+                <h1> BILHETERIA BEG PARK</h1>
+            </div>
+            <label for="Basicdata" class="Etiquetas"> DADOS BÁSICOS </label>
+            <div class="BasicData">
+                <form action="" class="LeftRight">
+                    <div class="left">
+                        <label for="Caixa"> Caixa </label>
+                        <label for="ValorPromocao">Valor da Promoção</label>
+                        <label for="ValorGeral"> Valor Geral</label>
+                    </div>
+                    <div class="right">
+                        <input type="number" id="Caixa"><br>
+                        <input type="number" id="ValorPromocao"><br>
+                        <input type="number"><br>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="HeadContainer">
+            <label for="DailyData" class="Etiquetas"> DADOS DO DIA </label>
+            <div class="BasicData">
+                <div>
+                    <h3> Bilhetes Promoção </h3>
+                    <div class="LeftRight">
+                        <div class="left spaceCorrection">
+                            <label for="EntradaPromo"> Entrada </label>
+                            <label for="SaidaPromo"> Saída </label>
+                        </div>
+                        <div class="right">
+                            <input type="number" id="EntradaPromo"><br>
+                            <input type="number" id="SaidaPromo"><br>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3> Bilhetes Gerais </h3>
+
+                    <div class="LeftRight">
+                        <div class="left spaceCorrection">
+                            <label for="EntradaGeral"> Entrada </label>
+                            <label for="SaidaGeral"> Saída </label>
+                        </div>
+                        <div class="right">
+                            <input type="number" id="EntradaGeral"><br>
+                            <input type="number" id="SaidaGeral"><br>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3> Cartão </h3>
+
+                    <div class="LeftRight">
+                        <div class="left">
+                            <label for="Adicional"> Adicional </label>
+                            <label for="FechamentoCartao"> Fechamento Cartão </label>
+                        </div>
+                        <div class="right">
+                            <input type="number" id="Adicional"><br>
+                            <input type="number" id="FechamentoCartao"><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="HeadContainer">
+            <label for="Basicdata" class="Etiquetas"> FECHAMENTO DE CAIXA </label>
+            <div class="BasicData">
+                <form action="" class="LeftRight">
+                    <div class="left">
+                        <label for="TotalPromo"> Total Promoção</label>
+                        <label for="TotalGeral"> Total Geral </label>
+                        <label for="SubTotal"> SubTotal </label><br><br>
+                        <label for="TotalCartao" class="azul"> Total Cartão</label>
+                        <label for="TotalAdicional" class="azul"> Total Adicional </label>
+                        <label for="TotalRS" class="azul"> Total Dinheiro </label><br><br>
+                        <label for="Fechamento" class="color"> Fechamento do Dia </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" disabled id="TotalPromo"><br>
+                        <input type="number" disabled id="TotalGeral"><br>
+                        <input type="number" disabled id="SubTotal"><br><br><br>
+                        <input type="number" disabled id="TotalCartao" class="spaceCorrection2"><br>
+                        <input type="number" disabled id="TotalAdicional" class="spaceCorrection2"><br>
+                        <input type="number" disabled id="TotalRS" class="spaceCorrection2"><br><br><br>
+                        <input type="number" disabled id="Fechamento" class="spaceCorrection2"><br>
+                    </div>
+                </form>
+            </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
